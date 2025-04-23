@@ -9,3 +9,8 @@ class Carro( Veiculo ):
 
     def __str__(self):
         return super().__str__() + "\nPortas: " + str(self.portas) + "\nCategoria: " + str( self.categoria )
+    
+    # def cadastrar(self):
+    #     self.modelo = input("Digite o Modelo: ")
+    #     self.ano = input("Digite o ano: ")
+    #     self.categoria = input("Digite a Categoria: ")

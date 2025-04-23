@@ -8,8 +8,8 @@ from Categoria import Categoria
 
 app = QApplication( sys.argv )
 
-#telaVeiculo = TelaVeiculo( "Cadastro de Veículo")
-#telaVeiculo.show()
+# telaVeiculo = TelaVeiculo( "Cadastro de Veículo")
+# telaVeiculo.show()
 
 categorias = []
 telaCat = TelaCategoria("Adicionar Categorias", categorias )
